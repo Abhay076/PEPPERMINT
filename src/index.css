@@ -1,0 +1,181 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  /* background-color:#eee; */
+  padding: 0%;
+}
+.logo {
+  /* width: 50px; */
+  width: 100px;
+}
+.header {
+  margin: 0%;
+  display: flex;
+  background-color: #22292f;
+  color: #fff;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* padding:1rem;
+     */
+  /* padding-right: 2rem; */
+
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.nav-items ul {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+
+.nav-items ul li {
+  list-style: none;
+}
+.nav-items ul li:hover {
+  color: #22ae9d;
+  cursor: pointer;
+}
+.restaurant-list {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.card {
+  padding: 1rem;
+  width: 210px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0 gray;
+  /* text-align: center; */
+}
+.card:hover {
+  cursor: pointer;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.card > img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #15605e;
+  color: white;
+}
+.filter_btn {
+  margin: 20px;
+  cursor: pointer;
+}
+.search {
+  margin: 15px;
+}
+
+.heading {
+  text-align: center;
+  /* font-weight: bold; */
+}
+.heading h1 {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+}
+.about {
+  margin-left: 20px;
+}
+.about h2 {
+  font-size: 2rem;
+  line-height: 1.167em;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.7em;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  margin-left: 130px;
+}
+.about p {
+  margin-left: 130px;
+  font-family: "Times New Roman", serif;
+  color: grey;
+  line-height: 1.7;
+  margin-right: 150px;
+}
+.hr {
+  border-top: 1px solid #22ae9d;
+  margin-left: 140px;
+  margin-right: 150px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.footer {
+  width: 100%;
+  background-color: #22292f;
+}
+.logo-footer {
+  text-align: left;
+  margin-left: 130px;
+}
+.text {
+  text-align: left;
+  margin-left: 130px;
+  font-family: "Times New Roman", Times, serif;
+}
+.add {
+  text-align: left;
+  margin-left: 150px;
+  width: 300px;
+  font-family: "Times New Roman", Times, serif;
+}
+.links {
+  text-align: center;
+  margin-top: -250px;
+}
+.links ul li {
+  text-align: center;
+  list-style: none;
+  line-height: 1.8;
+  text-align-last: start;
+  margin-left: 610px;
+  
+}
+.links-right {
+  text-align: right;
+  margin-right: 150px;
+  margin-top: -250px;
+
+}
+.links-right h3{
+    margin-right: 210px;
+}
+.links-right ul li {
+  
+  list-style: none;
+  line-height: 1.8;
+  text-align-last: start;
+  margin-left: 890px;
+  text-align: initial;
+  list-style: none;
+  text-decoration: none;
+}
+.Role{
+    text-align: center;
+}
+.links-right ul li:hover{
+    color: #15605e;
+    cursor: pointer;
+}
+.links ul li:hover{
+   cursor: pointer;
+   color: #15605e;
+}
